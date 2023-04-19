@@ -129,6 +129,7 @@ public class FileUtils {
 	public static boolean base64ToFile(String filePath, String base64Data)  throws Exception {
 		String dataPrix = "";
         String data = "";
+		System.out.println("\n\n\nhhhhhhhhhh\n\n");
         
         if(base64Data == null || "".equals(base64Data)){
             return false;
@@ -145,6 +146,7 @@ public class FileUtils {
         // 因为BASE64Decoder的jar问题，此处使用spring框架提供的工具包
         byte[] bs = Base64Utils.decodeFromString(data);
         // 使用apache提供的工具类操作流
+		System.out.println(filePath);
         org.apache.commons.io.FileUtils.writeByteArrayToFile(new File(filePath), bs);
         
         return true;

@@ -36,6 +36,7 @@ org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class
 org/n3r/idworker/Sid.class
 com/imooc/pojo/FriendsRequest.class
 com/imooc/pojo/bo/UsersBO.class
+com/imooc/configuration/Configuration.class
 com/imooc/netty/DataContent.class
 com/imooc/utils/MyMapper.class
 com/imooc/service/impl/UserServiceImpl.class
