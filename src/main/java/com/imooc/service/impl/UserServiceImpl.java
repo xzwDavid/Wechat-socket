@@ -93,18 +93,18 @@ public class UserServiceImpl implements UserService {
 		String userId = sid.nextShort();
 		
 		// 为每个用户生成一个唯一的二维码
-//		String qrCodePath = "C://user" + userId + "qrcode.png";
-//		// muxin_qrcode:[username]
-//		qrCodeUtils.createQRCode(qrCodePath, "muxin_qrcode:" + user.getUsername());
-//		MultipartFile qrCodeFile = FileUtils.fileToMultipart(qrCodePath);
+		String qrCodePath = "/Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/tmp/" + userId + "qrcode.png";
+		// muxin_qrcode:[username]
+		qrCodeUtils.createQRCode(qrCodePath, "muxin_qrcode:" + user.getUsername());
+		MultipartFile qrCodeFile = FileUtils.fileToMultipart(qrCodePath);
 
-//		String qrCodeUrl = "";
-//		try {
-//			qrCodeUrl = fastDFSClient.uploadQRCode(qrCodeFile);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//		user.setQrcode(qrCodeUrl);
+		String qrCodeUrl = "";
+		try {
+			qrCodeUrl = fastDFSClient.uploadQRCode(qrCodeFile);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		user.setQrcode(qrCodeUrl);
 		
 		user.setId(userId);
 		userMapper.insert(user);

@@ -24,6 +24,7 @@
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/netty/ChatMsg.java
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/pojo/Users.java
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/service/UserService.java
+/Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/configuration/Configuration.java
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/enums/OperatorFriendRequestTypeEnum.java
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java
 /Users/xuzhongwei/Desktop/homework/spring全家桶/Wechat-netty/src/main/java/com/imooc/enums/MsgSignFlagEnum.java
